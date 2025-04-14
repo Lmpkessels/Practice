@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <!-- Head of the page, is a container for content you don't want to display 
+  in the user itself. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <!-- Title for webpage -->
+    <title>Bloomberg Europe</title>
+    <!-- Favicon Icon -->
+    <link
+      rel="icon"
+      href="images/RoundBloombergImage.png"
+      type="image/x-icon"
+    />
+    <!-- Link stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar heading-->
+    <nav class="navbar-ul">
+      <!-- Division for left side of navbar -->
+      <div class="left-nav">
+        <!-- Dropdown button -->
+        <button class="dropdown-menu">
+          <!-- Image for burger button -->
+          <img
+            src="images/BurgerButton.jpg"
+            alt="Menu"
+            width="22"
+            id="open-btn"
+          />
+          <!-- Image for close button -->
+          <img
+            src="images/whiteCross.jpg"
+            alt="Close"
+            width="16"
+            id="close-btn"
+          />
+        </button>
+
+        <!-- Bloomberg heading -->
+        <li id="heading-bloomberg">
+          <a href="index.html"><h1>Bloomberg</h1></a>
+        </li>
+      </div>
+
+      <!-- Right side navbar heading -->
+      <div class="right-nav">
+        <!-- Subscribe button -->
+        <li id="subscribe-btn">
+          <a href="subscribe.html" id="sub-btn">Subscribe</a>
+        </li>
+        <!-- Profile button -->
+        <li id="profile-btn">
+          <a href="profile.html">
+            <img
+              src="images/ProfilePerson.png"
+              alt="Profile Button"
+              width="18"
+            />
+          </a>
+        </li>
+      </div>
+    </nav>
+    <!-- Link for JS script -->
+    <script src="app.js"></script>
+  </body>
+</html>

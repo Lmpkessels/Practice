@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/DubaiIMG.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  height: 100%;
+  margin: 0%;
+}
+
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.page-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-middle {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 22px;
+  color: #fff;
+}
+
+.dropdown-menu,
+.footer-btn,
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-btn {
+  display: flex;
+  margin: 12px;
+  gap: 1rem;
+}
+
+/* Button wrapper */
+.s-button {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+/* Reset button style */
+.btn {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.s-button img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.default-img {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.hover-img {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.s-button:hover .hover-img {
+  opacity: 1;
+}
+
+.s-button:hover .default-img {
+  opacity: 0;
+}
+
+.dotted-image {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dotted-image:hover {
+  opacity: 1;
+}
+
+.quote,
+.hover-name {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: #fff;
+}

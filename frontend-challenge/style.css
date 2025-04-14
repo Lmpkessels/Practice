@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b52bff;
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+}
+
+.hero-section {
+  background-image: url(images/Web3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  height: 84vh;
+  margin: 66px;
+  border: 2px solid black;
+}
+
+#info-section {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#header-one {
+  margin: 12px;
+}
+
+#header a {
+  margin: 12px;
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #6d00a8;
+  border-radius: 28px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+#header a:hover {
+  background-color: #b52bff;
+  color: #ffffff;
+}
