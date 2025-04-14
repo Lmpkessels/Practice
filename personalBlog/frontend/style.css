@@ -1,0 +1,99 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Finlandica";
+}
+
+h1 a {
+  color: #f7931a;
+  text-decoration: none;
+}
+
+nav a {
+  color: gainsboro;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(145, 145, 145);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 24px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.navbar {
+  display: flex;
+  gap: 24px;
+}
+
+/* Blog post */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.blog-section h2 {
+  padding-bottom: 12px;
+  text-align: center;
+  color: gainsboro;
+}
+
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  padding: 12px;
+  justify-content: center;
+  border: 1px solid gainsboro;
+  border-radius: 12px;
+  margin: 44px 0;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Button */
+.read-more-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f7931a;
+  color: black;
+  border-radius: 12px;
+  text-decoration: none;
+  margin: 0 auto;
+  transition: 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #f9aa48;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Links withing text */
+.txt-link,
+a {
+  color: black;
+  transition: 0s;
+  text-decoration: underline;
+}
+
+.txt-link:hover {
+  color: gainsboro;
+}
