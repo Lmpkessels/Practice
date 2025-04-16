@@ -1,0 +1,153 @@
+/* Page settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Giving body good looks */
+body {
+  font-family: "Finlandica", sans-serif;
+  background-image: url(images/BlueBackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Positioning items heading */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  align-items: center;
+  border-bottom: 1px solid #ff9900;
+}
+
+/* Making ancher tags look good */
+.main-header a {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+.main-navbar {
+  list-style: none;
+  gap: 24px;
+}
+
+.ul-nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Heading li a tags hover effect */
+.a-tag {
+  transition: 0.3s ease;
+  font-size: 17px;
+}
+
+.a-tag:hover {
+  color: #ffce74;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.article-section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ff9900;
+  border-radius: 12px;
+  margin: 24px;
+}
+
+/* Styling article sections */
+/* Heading */
+.header-article {
+  margin-bottom: 12px;
+  color: #ff9900;
+}
+
+/* Styling */
+.article-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ff9900;
+  border-radius: 12px;
+  padding: 12px 24px;
+  margin: 12px;
+}
+
+/* Call to action button */
+.cta-read-more {
+  background-color: #2f6abb;
+  text-decoration: none;
+  color: #ff9900;
+  border: 1px solid black;
+  padding: 12px 24px;
+  margin-top: 12px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.cta-read-more:hover {
+  background-color: #7f97b7;
+  transform: scale(1.05);
+  color: #ffce74;
+}
+
+/* Styling nav subject section */
+.nav-sub-section {
+  display: flex;
+  border: 1px solid #ff9900;
+  border-radius: 12px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+/* Text styling */
+#unordered-list {
+  list-style: none;
+  margin: 12px 24px;
+}
+
+#unordered-list li {
+  margin: 8px;
+}
+
+#unordered-list a {
+  text-decoration: none;
+  color: #ff9900;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+#unordered-list a:hover {
+  color: #ffce74;
+}
+
+.p-link {
+  color: black;
+  transition: 0.1s;
+}
+
+.p-link:hover {
+  color: #ff9900;
+}
+
+#nav-sec-head {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #ff9900;
+  text-align: center;
+  border-bottom: 1px solid #ff9900;
+}
